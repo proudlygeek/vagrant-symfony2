@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'apt',
+  :git => 'https://github.com/fnichol/chef-apt'
+cookbook 'git',
+  :git => 'https://github.com/fnichol/chef-git.git'
+cookbook 'mysql',
+  :git => 'git://github.com/opscode-cookbooks/mysql.git'
+cookbook 'nginx',
+  :git => 'git://github.com/opscode-cookbooks/nginx.git'
+ cookbook 'php',
+  :git => 'git://github.com/opscode-cookbooks/php.git'
+cookbook 'php-fpm',
+  :git => 'git://github.com/yevgenko/cookbook-php-fpm.git'
+cookbook 'composer',
+  :git => 'git://github.com/zircote/chef-composer.git'
+cookbook 'build-essential'
