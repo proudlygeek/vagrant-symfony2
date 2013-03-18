@@ -24,6 +24,18 @@ gem install vagrant
 gem install librarian
 ```
 
+**Clone the repository**
+
+```bash
+git clone git://github.com/proudlygeek/vagrant-symfony2.git
+cd vagrant-symfony2
+mkdir viagrant #this is not a typo
+
+```
+
+
+
+
 **Update Cookbooks**
 
 ```bash
