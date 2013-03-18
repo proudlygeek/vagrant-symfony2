@@ -55,7 +55,7 @@ Just edit your local machine */etc/hosts* with an entry pointing to *33.33.33.33
 
 ```
 ...
-33.33.33.33     yourappname.lo
+33.33.33.33     yourapp.lo
 ...
 ```
 
