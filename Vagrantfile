@@ -7,6 +7,8 @@ Vagrant::Config.run do |config|
 
   config.vm.network :hostonly, "33.33.33.33"
   config.vm.forward_port 80, 8080
+  
+  config.vm.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
   config.vm.customize do |vm|
     vm.memory_size = 256
   end
