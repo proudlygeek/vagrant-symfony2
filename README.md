@@ -30,7 +30,6 @@ gem install librarian
 git clone git://github.com/proudlygeek/vagrant-symfony2.git
 cd vagrant-symfony2
 mkdir viagrant #this is not a typo
-
 ```
 
 
